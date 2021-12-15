@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contacts</title>
 </head>
 <body>
  <header>
-    header
-     <img src="./img/Sunshine.png" alt="Sunshine Events Logo"
+     <img src="/Images/Sunshine.png"  alt="Sunshine Events Logo"
     />
+    <hr>
     </header>
     <header><h1> Sunshine Events</h1></header>
 
     <nav>
-        nav
         <a href="default.asp">
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -24,10 +25,45 @@
             <li><a href="about.html">About</a></li>
           </ul>
     </nav>
+    <hr>
     <main>
-
-    <h2> About Us</h2>
-    <p> Owner and Event Coordinator Sarah Herrera is native Texan, born and raised in San Antonio, Texas. She finds influence from her hometown and brings it to her current </p>
+        <img class="img6" src="./Images/Team.jpg" alt="Team Members">
+        <div class="intro">
+            <h2> Reaching out to our Team</h2>
+            <p> Ready to make your next event the one that everyone will remember.
+            <p> Ready to have the time of your life. 
+            <p> Fill out the form on this page and one of our wonderful Event Coordinators will get in contact with you.
+            </p>
+        </div>
+        <div class="container">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Tell us about your upcoming event.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
     </main> 
+    <footer>
+        <p> @Copyright 2021 Sunshine Events</p>
+        <p>Author: Sunshine Events<br>
+        <a href="mailto:events@sunshineevents.com">events@sunshineevents.com</a></p>
+        <!-- <a href= "snapchat" class="fa fa-snapchat-ghost"></a> -->
+        <a href="facebook" class="fa fa-facebook"></a>
+        <a href="twitter" class="fa fa-twitter"></a>
+        <a href="instagram" class="fa fa-instagram"></a>
+      </footer>
 </body>
+</html>
 </html>

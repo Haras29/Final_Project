@@ -1,14 +1,87 @@
+header {
+    text-align: center;
+}
+/* Keep the site name centered it looked weird to the left */
+img {
+    width: 300px;
+    height: 250px;
+    float: left;
+}
+/* This is your logo */
+
+.img2{
+    width: 450px;
+    height: 450px;
+    margin: 60px;
+}
+
+.img3 {
+    width: 450px;
+    height: 450px;
+    margin: 60px;
+}
+
+.img4 {
+    width: 450px;
+    height: 350px;
+    margin: 60px;
+}
+
+.img5 {
+    width: 450px;
+    height: 450px;
+    margin: 60px;
+}
+
+.img6 {
+    width: 450px;
+    height: 500px;
+    margin: 100px;
+    float: right;
+}   
+h1 {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+}
+
+h2 {
+    color: rgb(248, 244, 26);
+    text-align: center;
+    font-family: 'Baskervville', serif;
+}
+
 .intro {
-    background-color: lightpink;
+    background-color: rgb(255, 159, 173);
+    font-size: 30px;
+}
+/* Make changes to your H2 here */
+
+div {
+    background-color: lightgrey;
+    width: 400px;
+    border: 5px solid lightgrey;
+    padding: 50px;
+    margin: 100px;
+    
+}
+
+p {
+    font-family: 'Judson', serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(247, 185, 212);
 }
 
 ul {
 list-style-type: none;
-margin: 0px;
-padding: 0px;
+margin: 50px;
+padding: 15px;
 overflow: hidden;
 background-color: white;
-    
+
 }
    
 li {
@@ -19,20 +92,86 @@ li a {
 display: hidden-block;
 color: black;
 text-align: center;
-padding: 14px 16px;
+padding: 50px 50px;
 text-decoration: none;
 }
-   
-li a:hover:not(.active) {
-background-color: whitesmoke;
+
+body {
+    font-family: 'Judson', serif;
+    box-sizing: border-box;
 }
-   
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 10px solid rgb(252, 125, 163);
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #aa0478;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ffa3e8;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
 .active {
-background-color: whitesmoke;
+background-color:rgba(248, 205, 230, 0.973);
 }
-img{
-width: 200px;
-height: 200px;
-float: left;
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: lightgrey;
+    color: black;
+  }
+
+/* The next portion is for social media icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
 }
-   
+/* 
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+} */
+/* Save for in the future when you want to add your snapchat */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #fc069d;
+    color: white;
+}
